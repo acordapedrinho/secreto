@@ -1,8 +1,7 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let amigos=[];
 
-// let titulo =document.querySelector('h1');
-// titulo.innerHTML = 'Amigo Secreto';
+
 let InputUsuario = document.querySelector('input-name');
 let botaoAdcionar= document.querySelector('button-add');
 
@@ -11,7 +10,7 @@ let botaoAdcionar= document.querySelector('button-add');
 
 function adicionarAmigo(InputUsuario) { 
      
-    let InputUsuario = document.querySelector('amigo');
+    let InputUsuario = document.querySelector('button-add');
     const nomeAdicionado= InputUsuario.ariaValueMax.trim(); // Remove espaços em branco no início e no final do nome
 
 
