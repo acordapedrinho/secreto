@@ -27,16 +27,25 @@ function adicionarAmigo(InputUsuario) {
     }
     amigos.push(nomeAdicionado);// Adiciona o nome ao array de amigos
      
-    limparCampo(); // Limpa o campo de input após adicionar o amigo
+     // Limpa o campo de input após adicionar o amigo
 }
 
 
 
 
 
-function sortearAmigo(){
-    console.log('Sortear amigo secreto');
+function atualizarlista(){
+    const listaAmigos =document.querySelector('listaAmigos');
+    listaAmigos.innerHTML=""; // Limpa a lista antes de atualizar
+    // para percorer um de amigos vou ultilizar o for 
+    for (let i = 0; i < amigos.length; i++) {
+        const amigo = amigos[i];
+        const itemLista = document.createElement('li'); // Cria um novo elemento de lista
+        itemLista.textContent = amigo; // Define o texto do item da lista
+        listaAmigos.appendChild(itemLista); // Adiciona o item à lista
+    }   
 }
+
 
 
 
@@ -51,8 +60,9 @@ function sortearUmAmigo(){
 
     const indiceSorteado = Math.floor(Math.random() * amigos.length);
     const amigoSorteado = amigos[indiceSorteado];
+    const resultadoSorteio = document.querySelector('resultado');
+    resultadoSorteio.innerHTML=`amigoSorteado ${amigoSorteado}`; // Exibe o amigo sorteado na tela
     
-    alert(`O amigo secreto sorteado é: ${amigoSorteado}`);
 }
 
 
