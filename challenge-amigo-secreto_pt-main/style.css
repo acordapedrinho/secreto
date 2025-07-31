@@ -143,7 +143,7 @@ ul {
 }
 
 /* Botão de sortear título */
-.button-draw {
+.button-draw  {
     display: flex;
     align-items: center;
     width: 100%;
@@ -152,7 +152,37 @@ ul {
     background-color: var(--color-button);
     font-size: 16px;
 }
+/* botton reiniciar  */
+.button-reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color:var(--color-button);
+    font-size: 16px; 
+   
 
+}
+.button-reset::before {
+    content: "\21BB"; /* Código para o ícone de recarregar */
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+/* .button-reset img{
+    margin-right: 20px;
+}
+.button-reset img {
+    margin-right: 40px;
+}
+.button-reset:hover {
+    background-color: var(--color-button-hover);
+} */
+
+.button-draw img{
+    margin-right: 20px;
+}
 .button-draw img {
     margin-right: 40px;
 }
@@ -160,3 +190,4 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+/* mexendo no button resert colocar icone  */
