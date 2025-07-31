@@ -20,4 +20,13 @@ Inicie o sorteio com apenas um clique.
 
 A lista de participantes e o resultado são exibidos de forma clara na tela.
 
-Opção para reiniciar o sorteio e começar uma nova rodad
+Opção para reiniciar o sorteio e começar uma nova rodada
+
+
+## 🚀 Projeto Online
+
+Confira a versão online da aplicação clicando no botão abaixo:
+
+**Acesse a aplicação aqui:** [secretosorteio-gjy8-ptyypa9gv-acordapedrinhos-projects.vercel.app](https://secretosorteio-gjy8-ptyypa9gv-acordapedrinhos-projects.vercel.app)
+
+
